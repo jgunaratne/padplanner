@@ -1,0 +1,365 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body {
+	margin: 0;
+	font-family: Open Sans, sans-serif;
+	color: #252525;
+	letter-spacing:1px;
+}
+
+.page {
+	width: 1100px;
+	position: absolute;
+	left: 50%;
+	margin-left: -550px;
+	font-size: 13px;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 30px 0;
+	font-size: 36px;
+	letter-spacing:2px
+}
+
+h1 .light {
+	color: #505257;
+}
+
+.light {
+	font-weight: 300;
+}
+
+ul.nav {
+	list-style: none;
+	margin: 0 0 40px 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul:after {
+	content: ' .';
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
+
+.nav li {
+	margin: 0 20px;
+	padding: 0;
+	display: inline;
+}
+
+.nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #252525;
+	letter-spacing:2px;
+}
+
+.room {
+	width: 800px;
+	height: 600px;
+	background-image: url(../img/empty-room.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #252525;
+	position: relative;
+	float: left;
+}
+
+.item {
+	width: 800px;
+	height: 600px;
+	position: absolute;
+	-webkit-transition: all .5s;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 24px;
+	margin: 50px 0 0 0;
+	text-align: center;
+}
+
+h4 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 0 16px;
+	line-height: 50px;
+}
+
+h4 .light {
+	color: #888888;
+	font-size: 12px;
+}
+
+.coffee-table {
+	background-image: url(../img/coffee-table.png);
+}
+
+.console-left {
+	background-image: url(../img/console-left.png);
+}
+
+.console-right {
+	background-image: url(../img/console-right.png);
+}
+
+.painting-left {
+	background-image: url(../img/painting-left.png);
+}
+
+.painting-right {
+	background-image: url(../img/painting-right.png);
+}
+
+.painting {
+	background-image: url(../img/painting.png);
+}
+
+.pendant {
+	background-image: url(../img/pendant.png);
+}
+
+.picture-frames {
+	background-image: url(../img/picture-frames.png);
+}
+
+.rug {
+	background-image: url(../img/rug.png);
+}
+
+.side-chair {
+	background-image: url(../img/side-chair.png);
+}
+
+.sofa {
+	background-image: url(../img/sofa.png);
+}
+
+.tv-media {
+	background-image: url(../img/tv-media.png);
+}
+
+.media-console {
+	background-image: url(../img/media-console.png);
+}
+
+.highlight {
+	-webkit-filter: grayscale(100%) brightness(0) drop-shadow(0 0 5px rgba(255,255,255,1));
+	opacity: .5;
+}
+
+.thumb {
+	width: 72px;
+	height: 72px;
+	float: left;
+	background-size: contain !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 10px;
+}
+
+.coffee-table.thumb {
+	background-image: url(../img/thumbs/coffee-table.png);
+}
+
+.console-left.thumb {
+	background-image: url(../img/thumbs/console-left.png);
+}
+
+.console-right.thumb {
+	background-image: url(../img/thumbs/console-right.png);
+}
+
+.painting-left.thumb {
+	background-image: url(../img/thumbs/painting-left.png);
+}
+
+.painting-right.thumb {
+	background-image: url(../img/thumbs/painting-right.png);
+}
+
+.painting.thumb {
+	background-image: url(../img/thumbs/painting.png);
+}
+
+.pendant.thumb {
+	background-image: url(../img/thumbs/pendant.png);
+}
+
+.picture-frames.thumb {
+	background-image: url(../img/thumbs/picture-frames.png);
+}
+
+.rug.thumb {
+	background-image: url(../img/thumbs/rug.png);
+}
+
+.side-chair.thumb {
+	background-image: url(../img/thumbs/side-chair.png);
+}
+
+.sofa.thumb {
+	background-image: url(../img/thumbs/sofa.png);
+}
+
+.tv-media.thumb {
+	background-image: url(../img/thumbs/tv-media.png);
+}
+
+.media-console.thumb {
+	background-image: url(../img/thumbs/media-console.png);
+}
+
+.room-top {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 50px;
+	background: #252525;
+	width: 1100px;
+}
+
+.room-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 70px;
+	width: 1100px;
+	background: #252525;
+}
+
+.palette {
+	width: 280px;
+	float: left;
+	margin: 72px 10px;
+}
+
+.total {
+	font-size: 28px;
+	position: absolute;
+	bottom: 0;
+	line-height: 70px;
+	left: 16px;
+	color: #fff;
+	float: left;
+}
+
+.social {
+	float: right;
+}
+
+.icon {
+	float: left;
+	width: 32px;
+	height: 32px;
+	background-color: #fff;
+	margin: 19px 19px 0 0;
+}
+
+.icon.facebook {
+	-webkit-mask: url(../img/social/facebook.svg);
+}
+
+.icon.twitter {
+	-webkit-mask: url(../img/social/twitter.svg);
+}
+
+.icon.pinterest {
+	-webkit-mask: url(../img/social/pinterest.svg);
+}
+
+.recroom {
+	width: 298px;
+	height: 178px;
+	background-image: url(../img/recroom.png);
+}
+
+.reccontainer {
+	border: 1px solid #8f8f8f;
+	width: 298px;
+	float: left;
+	margin: 0 100px 50px 0;
+}
+
+.btn {
+	color: #fff;
+	font-size: 14px;
+	background: #252525;
+	padding: 6px 12px;
+	margin: 20px auto;
+	font-weight: 300;
+	width: 80px;
+	text-align: center;
+}
+
+.btn.larger {
+	width: 180px;
+	margin: 40px auto 100px auto;
+}
+
+.reccontainer.last {
+	margin-right: 0;
+}
+
+.recroom h4 {
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+.gray-light ul {
+	margin-bottom: 0;
+}
+
+.gray-dark {
+	background: #bfbfbf;
+	height: 400px;
+}
+
+.gray-light {
+	background-color: #e5e5e5;
+	padding: 30px;
+}
+
+.account-icons {
+	position: absolute;
+	right: 0;
+	top: 46px;
+	width: 130px;
+	height: 13px;
+	background-image: url(../img/account-icons.png);
+}
+
+.bar {
+	background: #252525;
+	width: 50px;
+	height: 6px;
+	margin: 15px auto 45px auto;
+}
+
+footer {
+	color: #fff;
+	background: #252525;
+	font-size: 11px;
+	padding: 20px 30px;
+	letter-spacing:0;
+}
+
+.clear {
+	clear: both;
+}
