@@ -170,6 +170,7 @@ h4 .light {
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: 10px;
+	position: relative;
 }
 
 .coffee-table.thumb {
@@ -224,6 +225,15 @@ h4 .light {
 	background-image: url(../img/thumbs/media-console.png);
 }
 
+.thumb .price {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: -15px;
+	font-size: 11px;
+	text-shadow: 0 0 5px rgba(255,255,255,1);
+}
+
 .room-top {
 	position: absolute;
 	left: 0;
@@ -245,7 +255,7 @@ h4 .light {
 .palette {
 	width: 280px;
 	float: left;
-	margin: 72px 10px;
+	margin: 55px 10px;
 }
 
 .total {
